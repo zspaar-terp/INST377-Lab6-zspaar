@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Home icon</title>
+  <desc id="desc">A simple house icon</desc>
+  <rect width="120" height="120" rx="18" fill="#2f3e5c"/>
+  <path d="M18 58 L60 22 L102 58 V102 H72 V73 H48 V102 H18 Z" fill="white"/>
+  <path d="M38 50 V29 H51 V39" fill="white"/>
+</svg>
