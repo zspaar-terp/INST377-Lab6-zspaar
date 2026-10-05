@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INST377 Class Website - Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>INST377 Class Website - Games</h1>
+    <p class="header-text">Finally, a serious test of athletic ability.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div class="game-area">
+
+    <form class="game-form" onsubmit="playGame(); return false;">
+        <h2>Rock, Paper, Scissors</h2>
+        <p>Pick one. The computer gets Spock too, because the computer apparently needed an advantage.</p>
+
+        <p>
+            <input type="radio" name="userChoice" value="Rock"> Rock
+            <input type="radio" name="userChoice" value="Paper"> Paper
+            <input type="radio" name="userChoice" value="Scissors"> Scissors
+        </p>
+
+        <input class="submit-button" type="submit" value="Play This Extremely Fair Game">
+    </form>
+
+    <div class="choice-area">
+        <div class="choice-box">
+            <h2>You Chose:</h2>
+            <p id="user-choice">Nothing yet. Bold strategy.</p>
+        </div>
+
+        <div class="choice-box right-box">
+            <h2>Computer Chose:</h2>
+            <p id="computer-choice">Nothing yet. Suspicious.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>2026 INST377 Class Website - where the computer is absolutely not cheating.</p>
+</footer>
+
+</body>
+</html>
